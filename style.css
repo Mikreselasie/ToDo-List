@@ -199,5 +199,18 @@ body {
     height: 100vh;
     font-family: 'PT Serif', serif;
 }
-
-/* Theme variables for light mode */
+@media (max-width: 600px) {
+    .changers{
+        height: min(50%,70px);
+        font-size: 60%;
+        aspect-ratio: 1 / 1;
+        margin: 2.5px;
+    }
+    .checkBox{
+        height: 30%;
+        aspect-ratio: 1 / 1;
+    }
+    .fa-circle-check{
+        font-size: 75%;
+    }
+}
